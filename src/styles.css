@@ -9,7 +9,6 @@ body {
     background-color: black;
     color: white;
     text-align: center;
-    /* background-color: #1a4d2e; */
     padding: 90px 0 20px;
 }
 
@@ -34,7 +33,6 @@ nav {
     flex-direction: row;
     justify-content: center;
     gap: 15px;
-    height: 20px;
     margin: 15px;
 }
 
