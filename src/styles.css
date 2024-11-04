@@ -57,6 +57,7 @@ nav button {
     background-color: black;
     margin: auto;
     width: 600px;
+    height: 800px;
 }
 
 img {
@@ -98,5 +99,9 @@ h2 {
 
 .footerContent p,
 .footerContent a {
+    font-size: 16px;
+}
+
+.menuDescription {
     font-size: 16px;
 }
