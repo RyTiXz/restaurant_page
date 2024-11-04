@@ -12,9 +12,14 @@ body {
     padding: 90px 0 20px;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .fixedHeader, .fixedFooter {
     width: 100%;
-    background-color: #1a4d2e9d;
+    background-color: #1a4d2e;
     position: fixed;
     padding: 10px 0;
 }
@@ -25,6 +30,8 @@ body {
 
 .fixedFooter {
     bottom: 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav {
@@ -32,23 +39,23 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 15px;
-    margin: 15px;
+    gap: 50px;
 }
 
 nav button {
     background-color: black;
+    border-radius: 15px;
     color: white;
     width: 150px;
     padding: 5px;
 }
 
 #content {
-    border: 5px white solid;
+    border: 5px #1a4d2e solid;
     padding: 20px;
     border-radius: 15px;
     background-color: black;
-    margin: 50px auto;
+    margin: auto;
     width: 600px;
 }
 
@@ -58,14 +65,38 @@ img {
     margin-top: 15px;
 }
 
-h1, h2, h3 {
+h1, h2 {
     margin: 15px;
 }
 
-.recommendation {
-    text-align: center;
+h1 {
+    font-size: 30px;
 }
+
+h2 {
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+/* .recommendation {
+
+} */
+
+/* .hours {
+    
+} */
 
 .location {
     margin-bottom: 15px;
+}
+
+.footerContent {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+}
+
+.footerContent p,
+.footerContent a {
+    font-size: 16px;
 }
