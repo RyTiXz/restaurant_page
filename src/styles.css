@@ -103,5 +103,15 @@ h2 {
 }
 
 .menuDescription {
-    font-size: 16px;
+    font-size: 20px;
+}
+
+.contactDetails {
+    width: 300px;
+    text-align: left;
+    margin: auto;
+}
+
+.contactDetails p {
+    font-size: 20px;
 }
